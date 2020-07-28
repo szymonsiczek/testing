@@ -8,7 +8,7 @@ import shutil
 
 os.chdir(r'C:\Users\User\Dropbox\Python\Własne wariacje\Folder cleaner.py')
 
-
+#This is a comment
 def separateAndStripFileTypes(string):
     listOfFilesToClean = string.split(', ')
     for file in listOfFilesToClean:
