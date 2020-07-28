@@ -14,7 +14,7 @@ def separateAndStripFileTypes(string):
         listOfFilesToClean[listOfFilesToClean.index(file)] = file.strip()
     return listOfFilesToClean
 
-#blahblach blah
+
 def getSuffixWithoutDot(file):
     return Path(os.path.join(folderToClean, file)).suffix.strip('.')
 
